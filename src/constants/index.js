@@ -190,7 +190,7 @@ import {
       name: "Justin Lau",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://media.licdn.com/dms/image/D5603AQG7bAir__6zRQ/profile-displayphoto-shrink_400_400/0/1721664242310?e=1727308800&v=beta&t=1q4p-SgXRpFTF30gSPqEEimR8Cl27MeBEBrbOyG56Uc",
     },
     {
       testimonial:
