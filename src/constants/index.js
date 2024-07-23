@@ -177,8 +177,7 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "Hard working and innovative.",
+      testimonial:"Alex is an extremely motivated student who is always down to learn new things, from all areas of the industry. I’ve worked with him on multiple projects, all of which he was able to show his leadership and commitment to produce the best possible outcome for our products. He has an exceptional ability to self-teach new technical concepts and is able to apply them well in his projects.",
       name: "Minh Vu",
       designation: "Data Scientist",
       company: "RBC Toronto",
@@ -187,19 +186,43 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Justin Lu",
+        ".",
+      name: "Justin Lau",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        ".",
       name: "Samuel",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      designation: "CEO",
+      company: "Klink",
+      image: "https://www.klinkapp.com/sam.png",
+    },
+    {
+      testimonial:
+        ".",
+      name: "Artine",
+      designation: "Senior Manager -- TPC & Development",
+      company: "RBC Toronto",
+      image: "https://media.licdn.com/dms/image/D5603AQFL6NIBrrDugA/profile-displayphoto-shrink_400_400/0/1698704833014?e=1727308800&v=beta&t=dSuskPdDuCb8ckenyodUtQoGpXUPLt7UeXeJZVLT1Zg",
+    },
+    {
+      testimonial:
+        ".",
+      name: "Scott Forsyth",
+      designation: "Senior Cyber Security Network Security Analyst",
+      company: "RBC Toronto",
+      image: "https://media.licdn.com/dms/image/C5603AQFL4V5OPcwUVw/profile-displayphoto-shrink_400_400/0/1636571548723?e=1727308800&v=beta&t=iqAFWhTSGZ1y3L4l7iCfdXDobMoeP-cyZQB5gX204SA",
+    },
+    {
+      testimonial:
+        ".",
+      name: "Khoi Vo Thanh",
+      designation: "Senior Manager Networking Engineer",
+      company: "Kinder",
+      image: "",
     },
   ];
   
