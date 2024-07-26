@@ -28,6 +28,7 @@ import {
 
     comming_soon,
     klink,
+    bubble,
     jobit,
     tripguide,
     threejs,
@@ -254,6 +255,29 @@ import {
       image: klink,
       source_code_link: "https://github.com/samuelhan713/klink",
       demo_link: "https://klinkapp.com",
+
+    },
+    {
+      name: "BubbleMathics",
+      description:
+        "Math Learning Platform for Kids",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bubble,
+      source_code_link: "https://github.com/anvu2002/BubbleMathics",
+      demo_link: "https://bubblemathics.netlify.app",
 
     },
     {

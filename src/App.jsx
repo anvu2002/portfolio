@@ -10,7 +10,10 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <div className="bg-about-pattern bg-cover">
         <About />
+        </div>
+        
         <Experience />
         <Tech />
         <Works />

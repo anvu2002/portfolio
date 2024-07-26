@@ -38,6 +38,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import klink from "./klink.png";
+import bubble from "./bubbleMathics.png";
 import comming_soon from "./coming_soon.gif"
 
 import mino from "./Mino.png";
@@ -72,6 +73,7 @@ export {
   jobit,
   tripguide,
   klink,
+  bubble,
   comming_soon,
   mino,
 
