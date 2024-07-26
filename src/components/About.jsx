@@ -59,7 +59,7 @@ const About = () => {
 
 
       <motion.p 
-        variants={fadeIn("", "", 5, 1)}
+        variants={fadeIn("", "", 2, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
          My expertise includes Python, GoLang, JavaScript, and NodeJS. I am enthusiastic about applying Machine Learning, particularly in building task queue distributed architectures to implement ML models.
