@@ -5,6 +5,8 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import { Typewriter } from 'react-simple-typewriter';
+
 
 const ServiceCard = ({ index, title, icon }) => {
   return(
@@ -44,11 +46,23 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 
+      <Typewriter
+              words={["I specialize in Backend Development, passionate about .NET Core Microservices, FastAPI, and Django frameworks."]}
+              loop={1}
+              cursor
+              cursorStyle='|'
+              typeSpeed={50}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            
+      />
+
+
       <motion.p 
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "", 5, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-         I'm a quick learner in Backend Development, passionate about .NET Core microservices, FastAPI, Django frameworks, with Python, GoLang, JavaScript, and NodeJS. I have a strong enthusiasm for applying Machine Learning, especially building task queue distributed architectures to implement ML models.   
+         My expertise includes Python, GoLang, JavaScript, and NodeJS. I am enthusiastic about applying Machine Learning, particularly in building task queue distributed architectures to implement ML models.
       </motion.p>
       
       <div className="mt-20 flex flex-wrap gap-10">

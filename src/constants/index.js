@@ -36,30 +36,34 @@ import {
   
   export const navLinks = [
     {
-      id: "about",
+      id: "/resume.pdf",
+      title: "Resume",
+    },
+    {
+      id: "#about",
       title: "About",
     },
     {
-      id: "work",
+      id: "#work",
       title: "Work",
     },
     {
-      id: "contact",
+      id: "#contact",
       title: "Contact",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "MERN Stack",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "IAM Architecture",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Development",
       icon: backend,
     },
     {
@@ -187,22 +191,6 @@ import {
     {
       testimonial:
         ".",
-      name: "Justin Lau",
-      designation: "SWE",
-      company: "SPS Commerce",
-      image: "https://media.licdn.com/dms/image/D5603AQG7bAir__6zRQ/profile-displayphoto-shrink_400_400/0/1721664242310?e=1727308800&v=beta&t=1q4p-SgXRpFTF30gSPqEEimR8Cl27MeBEBrbOyG56Uc",
-    },
-    {
-      testimonial:
-        ".",
-      name: "Samuel",
-      designation: "CEO",
-      company: "Klink",
-      image: "https://www.klinkapp.com/sam.png",
-    },
-    {
-      testimonial:
-        ".",
       name: "Artine",
       designation: "Senior Manager -- TPC & Development",
       company: "RBC Toronto",
@@ -220,10 +208,28 @@ import {
       testimonial:
         ".",
       name: "Khoi Vo Thanh",
-      designation: "Senior Manager Networking Engineer",
-      company: "Kinder",
-      image: "",
+      designation: "ICT manager",
+      company: "KinderWorld International Group",
+      image: "https://media.licdn.com/dms/image/C4E0BAQE59fGQSOliEw/company-logo_200_200/0/1639418488377/kinderworld_education_group_logo?e=1730332800&v=beta&t=sRh3vQdetqRtqJOqOHGrdhlli5rtxvfN7OWiNVW_i4k",
+      profile: "https://www.linkedin.com/company/kinderworld-education-group",
     },
+    {
+      testimonial:
+        ".",
+      name: "Justin Lau",
+      designation: "SWE",
+      company: "SPS Commerce",
+      image: "https://media.licdn.com/dms/image/D5603AQG7bAir__6zRQ/profile-displayphoto-shrink_400_400/0/1721664242310?e=1727308800&v=beta&t=1q4p-SgXRpFTF30gSPqEEimR8Cl27MeBEBrbOyG56Uc",
+    },
+    {
+      testimonial:
+        ".",
+      name: "Samuel",
+      designation: "CEO",
+      company: "Klink",
+      image: "https://www.klinkapp.com/sam.png",
+    },
+    
   ];
   
   const projects = [
