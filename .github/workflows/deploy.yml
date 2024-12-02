@@ -8,6 +8,7 @@ on:
       - master
 
 jobs:
+  #Job 1
   build:
     name: Build npm environment
     runs-on: ubuntu-latest
@@ -33,6 +34,7 @@ jobs:
           name: production-files
           path: ./dist
 
+  #Job 2
   deploy:
     name: Deploy React web application
     needs: build
@@ -51,14 +53,15 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          cname: cyberanvu.co
 
-      - name: Set custom domain
-        run: |
-          curl -X PATCH \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -d '{"cname": "cyberanvu.co"}' \
-            https://api.github.com/repos/${{ github.repository }}/pages
+      # - name: Set custom domain
+      #   run: |
+      #     curl -X PATCH \
+      #       -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+      #       -H "Accept: application/vnd.github.v3+json" \
+      #       -d '{"cname": "cyberanvu.co"}' \
+      #       https://api.github.com/repos/${{ github.repository }}/pages
 
       - name: Notify success
         run: echo "Deployment completed and custom domain set."
