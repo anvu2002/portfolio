@@ -63,5 +63,5 @@ jobs:
             -d '{"cname": "cyberanvu.co"}' \
             https://api.github.com/repos/${{ github.repository }}/pages
 
-      - name: Notify run_id
+      - name: show run_id
         run: echo "run_id = ${{ github.run_id }} "
