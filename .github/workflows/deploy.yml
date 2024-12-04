@@ -55,13 +55,13 @@ jobs:
           publish_dir: ./dist
           # cname: cyberanvu.co
 
-      # - name: Set custom domain
-      #   run: |
-      #     curl -X PATCH \
-      #       -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-      #       -H "Accept: application/vnd.github.v3+json" \
-      #       -d '{"cname": "cyberanvu.co"}' \
-      #       https://api.github.com/repos/${{ github.repository }}/pages
+      - name: Set custom domain
+        run: |
+          curl -X PATCH \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"cname": "cyberanvu.co"}' \
+            https://api.github.com/repos/${{ github.repository }}/pages
 
       - name: Notify success
         run: echo "Deployment completed and custom domain set."
