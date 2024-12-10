@@ -1,5 +1,5 @@
 ﻿# Workflow to build and deploy NodeJS React Web Application to a custom Domain
-name: Deploy
+name: Deploy 
 
 # Workflow trigger events
 on:
