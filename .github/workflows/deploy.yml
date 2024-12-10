@@ -1,5 +1,5 @@
 ﻿# Workflow to build and deploy NodeJS React Web Application to a custom Domain
-name: Deploy 
+name: Deploy 2 
 
 # Workflow trigger events
 on:
@@ -49,7 +49,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v22
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
@@ -58,7 +58,7 @@ jobs:
       - name: Set custom domain
         run: |
           curl -X PATCH \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKE }}" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             -d '{"cname": "cyberanvu.co"}' \
             https://api.github.com/repos/${{ github.repository }}/pages
